@@ -1,0 +1,27 @@
+.root {
+  display: flex;
+  margin-bottom: -0.28571rem;
+}
+
+.root > div {
+  flex-grow: 1;
+  letter-spacing: 0.07142rem;
+}
+
+.root > div:first-child {
+  font-size: 1.14285rem;
+  width: 42%;
+}
+
+.root > div:nth-child(2) {
+  font-size: 1rem;
+  text-align: center;
+  width: 16%;
+  margin-top: -0.28571rem;
+}
+
+.root > div:last-child {
+  font-size: 1.14285rem;
+  text-align: right;
+  width: 42%;
+}

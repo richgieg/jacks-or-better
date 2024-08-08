@@ -1,0 +1,59 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.57142rem;
+}
+
+.root > button {
+  width: 20%;
+  text-align: center;
+  background-color: var(--button);
+  color: var(--button-text);
+  border-radius: 0.57142rem;
+  height: 2.5rem;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.root > button:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.root > button:nth-child(1) > svg {
+  width: 1.42857rem;
+  height: auto;
+}
+
+.root > button:nth-child(3) {
+  height: 3.21428rem;
+  border-radius: 4.92857rem;
+  font-size: 1.71428rem;
+}
+
+.root > button:nth-child(3):disabled {
+  color: var(--button-disabled-text);
+}
+
+.root > button:nth-child(5) {
+  font-size: 1.42857rem;
+  font-weight: bold;
+  letter-spacing: 0.07142rem;
+  background-color: var(--deal-button);
+}
+
+.root > button:nth-child(5).draw {
+  background-color: var(--draw-button);
+}
+
+.root > button:disabled {
+  background-color: var(--button-disabled);
+  color: transparent;
+}

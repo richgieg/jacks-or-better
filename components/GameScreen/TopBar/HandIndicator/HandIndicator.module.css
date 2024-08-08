@@ -1,0 +1,12 @@
+.root {
+  font-size: 1.14285rem;
+  letter-spacing: 0.07142rem;
+}
+
+.root.won {
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 0.21428rem;
+  color: var(--hand-indicator-won-fill);
+  text-shadow: 0rem 0.14285rem 0.14285rem var(--hand-indicator-won-stroke);
+}

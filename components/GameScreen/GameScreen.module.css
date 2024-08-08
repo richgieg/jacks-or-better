@@ -1,0 +1,7 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0.57142rem 1.14285rem 1.14285rem 1.14285rem;
+}

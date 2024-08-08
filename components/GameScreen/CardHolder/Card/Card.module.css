@@ -1,0 +1,164 @@
+.root {
+  background-color: var(--card-front-fill);
+  border-radius: 1.07142rem;
+  width: 20%;
+  box-shadow: 0 0.14285rem 0.35714rem 0 rgba(0, 0, 0, 0.25);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.root.dim {
+  opacity: 0.35;
+}
+
+.root > .rank {
+  font-size: 4.42857rem;
+  font-weight: 900;
+}
+
+.root > .held {
+  position: absolute;
+  top: 0.35714rem;
+  border-radius: 0.42857rem;
+  border: 0.07142rem solid var(--held-pill-stroke);
+  background-color: var(--held-pill-fill);
+  color: var(--text);
+  padding: 0rem 0.71428rem;
+  font-size: 1.14285rem;
+  font-weight: bold;
+  box-shadow: 0 0.14285rem 0.35714rem 0 rgba(0, 0, 0, 0.25);
+}
+
+.root.back {
+  padding: 0.71428rem;
+}
+
+.root.back > div {
+  background-color: var(--card-back-fill);
+  width: 100%;
+  height: 100%;
+  border-radius: 0.71428rem;
+  background-image: var(--card-back-icons-url);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.root.clubs,
+.root.spades {
+  color: var(--card-front-black);
+}
+
+.root.diamonds,
+.root.hearts {
+  color: var(--card-front-red);
+}
+
+.root > svg {
+  height: auto;
+  position: absolute;
+}
+
+.root.clubs > svg {
+  width: 2.42857rem;
+}
+
+.root.clubs > svg:nth-child(1) {
+  left: 0.71428rem;
+  top: 0.71428rem;
+}
+
+.root.clubs > svg:nth-child(2) {
+  right: 0.71428rem;
+  top: 0.71428rem;
+}
+
+.root.clubs > svg:nth-child(3) {
+  left: 0.71428rem;
+  bottom: 0.71428rem;
+}
+
+.root.clubs > svg:nth-child(4) {
+  right: 0.71428rem;
+  bottom: 0.71428rem;
+}
+
+.root.diamonds > svg {
+  width: 2.42857rem;
+}
+
+.root.diamonds > svg:nth-child(1) {
+  left: 0.71428rem;
+  top: 0.71428rem;
+}
+
+.root.diamonds > svg:nth-child(2) {
+  right: 0.71428rem;
+  top: 0.71428rem;
+}
+
+.root.diamonds > svg:nth-child(3) {
+  left: 0.71428rem;
+  bottom: 0.71428rem;
+}
+
+.root.diamonds > svg:nth-child(4) {
+  right: 0.71428rem;
+  bottom: 0.71428rem;
+}
+
+.root.hearts > svg {
+  width: 2.42857rem;
+}
+
+.root.hearts > svg:nth-child(1) {
+  left: 0.71428rem;
+  top: 1rem;
+}
+
+.root.hearts > svg:nth-child(2) {
+  right: 0.71428rem;
+  top: 1rem;
+}
+
+.root.hearts > svg:nth-child(3) {
+  left: 0.71428rem;
+  bottom: 1rem;
+}
+
+.root.hearts > svg:nth-child(4) {
+  right: 0.71428rem;
+  bottom: 1rem;
+}
+
+.root.spades > svg {
+  width: 2.42857rem;
+}
+
+.root.spades > svg:nth-child(1) {
+  left: 0.71428rem;
+  top: 0.85714rem;
+}
+
+.root.spades > svg:nth-child(2) {
+  right: 0.71428rem;
+  top: 0.85714rem;
+}
+
+.root.spades > svg:nth-child(3) {
+  left: 0.71428rem;
+  bottom: 0.71428rem;
+}
+
+.root.spades > svg:nth-child(4) {
+  right: 0.71428rem;
+  bottom: 0.71428rem;
+}

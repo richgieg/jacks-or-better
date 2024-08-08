@@ -1,0 +1,11 @@
+.root {
+  flex-grow: 1;
+  display: flex;
+  width: 100%;
+  max-width: 64.28571rem;
+  max-height: 20rem;
+  margin: 0 auto;
+  justify-content: space-between;
+  gap: 0.57142rem;
+  padding-bottom: 0.57142rem;
+}

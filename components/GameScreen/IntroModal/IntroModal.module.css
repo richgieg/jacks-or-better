@@ -1,0 +1,81 @@
+.root {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: env(safe-area-inset-top) calc(env(safe-area-inset-right) + 1.14285rem) env(safe-area-inset-bottom) calc(env(safe-area-inset-left) + 1.14285rem);
+}
+
+.modal {
+  border-radius: 1.07142rem;
+  width: 100%;
+  max-width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(180deg, var(--intro-bg-gradient-top) 0%, var(--intro-bg-gradient-bottom) 100%);
+  box-shadow: 0 0.28571rem 0.28571rem 0 rgba(0, 0, 0, 0.25);
+}
+
+.modal > svg {
+  color: var(--intro-logo);
+  width: 9.79rem;
+  height: auto;
+  margin-top: 1.95rem;
+}
+
+.modal > h1 {
+  color: var(--intro-title);
+  font-size: 1.85714rem;
+  font-weight: bold;
+  letter-spacing: 0.18571rem;
+  margin-top: 0.7rem;
+}
+
+.modal > h2 {
+  color: var(--intro-subtitle);
+  font-size: 1.28571rem;
+  font-weight: bold;
+  letter-spacing: 0.29571rem;
+  margin-top: -0.4rem;
+}
+
+.modal > .attribution {
+  color: var(--intro-attribution);
+  letter-spacing: 0.02rem;
+  margin-top: 0.8rem;
+  margin-bottom: 1.4rem;
+}
+
+.modal > .attribution > a {
+  color: var(--intro-attribution-link);
+}
+
+.modal > button {
+  /* margin-top: 1.71428rem; */
+  width: 6.93rem;
+  text-align: center;
+  background-color: var(--button);
+  color: var(--button-text);
+  border-radius: 0.57142rem;
+  height: 2.5rem;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.modal > .version {
+  color: var(--intro-version);
+  font-size: 0.85714rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}

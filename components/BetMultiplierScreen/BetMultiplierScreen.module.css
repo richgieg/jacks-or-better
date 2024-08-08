@@ -1,0 +1,24 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 1.14285rem;
+}
+
+.root > button {
+  font-size: 2.28571rem;
+  width: 5rem;
+  height: 5rem;
+  text-align: center;
+  background-color: var(--button);
+  color: var(--button-text);
+  border-radius: 4.92857rem;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

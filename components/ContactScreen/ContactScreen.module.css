@@ -1,0 +1,65 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.root > form {
+  width: 32.14285rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.14285rem;
+}
+
+.inputs {
+  display: flex;
+  gap: 1.14285rem;
+}
+
+.inputs > input {
+  width: 50%;
+  border: 0.07142rem solid var(--text);
+  padding: 0.57142rem;
+  background-color: var(--pay-table-row-bg);
+  color: var(--text);
+}
+
+.root > form > textarea {
+  padding: 0.57142rem;
+  height: 6.07142rem;
+  min-height: 6.07142rem;
+  border: 0.07142rem solid var(--text);
+  background-color: var(--pay-table-row-bg);
+  color: var(--text);
+}
+
+.buttons {
+  margin: 1.14285rem auto 0;
+  display: flex;
+  gap: 0.57142rem;
+}
+
+.root button {
+  flex-shrink: 0;
+  width: 6.92857rem;
+  height: 2.5rem;
+  text-align: center;
+  background-color: var(--button);
+  color: var(--button-text);
+  border-radius: 0.57142rem;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.confirmation {
+  color: var(--text);
+  margin-bottom: 16px;
+  font-size: 20px;
+}
